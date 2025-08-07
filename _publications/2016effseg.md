@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2016effseg
 # excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
+date: 2016-
 venue: 'Applied Soft Computing'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1568494615006341'
