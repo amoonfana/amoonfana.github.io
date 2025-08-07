@@ -19,16 +19,6 @@ Work experience
 ======
 * 2020-Now: Jinan University
   * Assistant Proffesor
-
-* 2019: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Research Interests
 ======
