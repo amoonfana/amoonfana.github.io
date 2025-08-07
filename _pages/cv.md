@@ -11,18 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Sciences, University of Macau, 2019
+* M.S. in Computer Sciences, University of Macau, 2014
+* B.S. in Software Engineering, Macau University of Science and Technology, 2011
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2020-Now: Jinan University
+  * Assistant Proffesor
 
-* Fall 2015: Research Assistant
+* 2019: Research Assistant
   * GitHub University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
@@ -32,14 +30,15 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Patttern Recognition
+  * Face Recognition
+  * Person Re-identification
+* Deep Learning
+  * Deep Neural Networks
+  * Loss Functions
+  * Optimization Algorithms
 
 Publications
 ======
