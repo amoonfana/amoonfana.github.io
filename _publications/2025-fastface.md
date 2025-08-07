@@ -1,7 +1,7 @@
 ---
-title: "FastFace: Fast-converging Scheduler for Large-scale Face Recognition Training with One GPU,"
+title: "FastFace: Fast-converging Scheduler for Large-scale Face Recognition Training with One GPU"
 collection: publications
-permalink: /publication/1/1/2025-2025fastface
+permalink: /publication/1/1/2025-fastface
 date: 1/1/2025
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology'
 paperurl: 'https://ieeexplore.ieee.org/document/11018427'

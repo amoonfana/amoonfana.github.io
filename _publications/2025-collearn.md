@@ -1,7 +1,7 @@
 ---
 title: "Collaborative learning with normalization augmentation for domain generalization in time series classification"
 collection: publications
-permalink: /publication/1/1/2025-2025collearn
+permalink: /publication/1/1/2025-collearn
 date: 1/1/2025
 venue: 'the Journal of Supercomputing'
 paperurl: 'https://link.springer.com/article/10.1007/s11227-024-06622-8'
