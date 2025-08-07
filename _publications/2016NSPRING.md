@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2016NSPRING
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2016-
+date: 2016-01-01
 venue: 'The Journal of Supercomputing'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://link.springer.com/article/10.1007/s11227-015-1525-6'
