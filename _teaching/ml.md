@@ -2,7 +2,7 @@
 title: "Machine Learning"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2024-ml
+permalink: /teaching/ml
 venue: "Jinan University"
 date: 2024-01-01
 location: "Zhuhai, China"
