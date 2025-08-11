@@ -8,6 +8,8 @@ date: 2022-01-01
 location: "Zhuhai, China"
 ---
 
+I finished teaching this course in 2022.
+
 Course Information
 ======
 

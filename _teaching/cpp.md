@@ -8,7 +8,7 @@ date: 2024-01-01
 location: "Zhuhai, China"
 ---
 
-This course is ranked top 10% in the faculty, which is publicly accessible on [**BiliBili**](https://www.bilibili.com/video/BV1JTHxeDEof/) (in Chinese).
+I am still actively teaching this course, which ranks in the top 10% within the faculty. The course content is publicly available on [**BiliBili**](https://www.bilibili.com/video/BV1JTHxeDEof/) (in Chinese).
 
 Course Information
 ======

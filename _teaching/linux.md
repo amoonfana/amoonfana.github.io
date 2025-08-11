@@ -8,7 +8,7 @@ date: 2022-01-01
 location: "Zhuhai, China"
 ---
 
-This course was ranked top 10% in the faculty.
+I finished teaching this course in 2022. This course was ranked in the top 10% within the faculty.
 
 Course Information
 ======
