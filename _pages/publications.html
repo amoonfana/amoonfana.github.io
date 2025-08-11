@@ -41,16 +41,3 @@ author_profile: true
     {% endfor %}
   </div>
 {% endfor %}
-
-{% if post.authors %}
-  <div class="pub-card__authors">
-    {{ post.authors | replace: "Xueyuan Gong", "<strong>Xueyuan Gong</strong>" }}
-  </div>
-{% endif %}
-
-{% if post.collection == 'publications' %}
-  <div class="pub-card__meta">
-    <span class="pub-card__venue"><i class="fa fa-university"></i> <em>{{ post.venue }}</em></span>
-    <span class="pub-card__year badge">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
-  </div>
-{% endif %}
