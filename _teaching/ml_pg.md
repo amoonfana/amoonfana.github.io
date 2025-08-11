@@ -2,7 +2,7 @@
 title: "Machine Learning (Postgraduate)"
 collection: teaching
 type: "postgraduate course"
-permalink: /teaching/ml
+permalink: /teaching/ml_pg
 venue: "Jinan University"
 date: 2024-01-01
 location: "Zhuhai, China"
