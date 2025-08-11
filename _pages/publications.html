@@ -35,9 +35,29 @@ author_profile: true
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in pubs_by_year %}
   <h2>{{ year.name }}</h2>
-  <div class="pubs-by-year">
+  <ul class="pubs-list">
     {% for post in year.items %}
-      {% include archive-publication.html post=post %}
+      <li class="pub-compact">
+        <span class="pub-title">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </span>
+        <span class="pub-authors">
+          {{ post.authors | replace: "Xueyuan Gong", "<strong>Xueyuan Gong</strong>" }}
+        </span>
+        <span class="pub-venue">
+          <em>{{ post.venue }}</em>
+        </span>
+        <span class="pub-year">
+          ({{ post.date | date: "%Y" }})
+        </span>
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" title="Download Paper">[PDF]</a>
+        {% endif %}
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 {% endfor %}

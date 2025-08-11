@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning (Undergraduate)"
+title: "Machine Learning"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/ml
