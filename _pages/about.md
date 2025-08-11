@@ -33,17 +33,46 @@ Research Interests
   * Loss Functions
   * Optimization Algorithms
 
+Grants
+======
+* Pursue learning, undertake responsibilities, and cultivate character—Striving to Be a “Da Xiansheng” in the New Era, YDXS2409, *the Jinan University "Da Xiansheng" Training Program*, 2024-2025, PI.
+* Research and Application of Face Recognition Models for Large-Scale Long-Tail Data, 2022A515110020, *Guangdong Basic and Applied Basic Research Foundation*, 2023-2025, PI.
+* Research on Compressed Deep Network Models for Object Detection Tasks, 202201010476, *Guangzhou Science and Technology Program Project*, 2022–2024, PI (Completed).
+* Research on Integrated Deep Recognition Technology for Unknown Signals in Radio Aliased Spectrum, 62271232, *National Natural Science Foundation of China*, 2023–2026, Co-PI.
+* Design of a Formalized Diagrammatic Language for Pointers in the C++ Programming Course, JG2022080, *Jinan University Teaching Reform Research Project*, 2023–2024, PI (Completed).
+* Research on Network Model Structures Based on Deep Metric Learning in Face Recognition, 21621017, *Young Scientists Fund under the Fundamental Research Funds for the Central Universities*, 2021–2023, PI (Completed).
+* Research on Point Cloud Registration Problems Based on Deep Learning Models, 2019KQNCX194, *Guangdong Provincial Key Platforms and Major Scientific Research Projects–Young Innovative Talents Program*, 2019–2021, PI (Completed).
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Patents
+======
+
+* Xinyuan Zhang, Jinhao Yang, Xiaoxiang Liu, Cong Lin, Xueyuan Gong. Fragment Restoration Method and Storage Medium Based on Large-Scale Collaborative Genetic Algorithm [P], CN2023109654217, Aug. 4, 2023. (Pending)
+
+* Xinyuan Zhang, Haolong Chen, Xiaoxiang Liu, Cong Lin, Xueyuan Gong. Process Mapping Optimization Method, Device, and Storage Medium Based on Genetic Algorithm [P], CN2023109170581, Jul. 25, 2023. (Pending)
+
+* Xinyuan Zhang, Ziyan He, Huajian Zhang, Qirui Huang, Xin Lan, Zhengang Jia, Xiaoxiang Liu, Cong Lin, Xueyuan Gong. Ball-Collecting Robot Control Method, Device, and Storage Medium Based on YOLOv5 Algorithm [P], CN2023107000317, Jun. 14, 2023. (Pending)
+
+* Cong Lin, Xinyuan Zhang, Xueyuan Gong, Xiaoxiang Liu, Haijia Chen, Jianxing Chen, Tianxiu Yu, Chunxue Wang, Yanlin Zhou. Line Drawing Generation Method, Device, and Storage Medium Based on Semantic Edge Model [P], CN2023106125866, May 29, 2023. (Pending)
+
+* Zhuang Zhou, Jialin Tang, Binghua Su, Xueyuan Gong, Yaqing Feng, Yicheng Sheng, Hao Yang, Tenghui Wang. Underwater Image Restoration Method, Device, Equipment, and Medium Based on Multi-Scale Fusion [P], CN112330548A, Feb. 5, 2021.
+
+* Yaqing Feng, Jialin Tang, Binghua Su, Qinglang Su, Xueyuan Gong, Zhuang Zhou, Wei Cao. Point Cloud Registration Method, System, Device, and Storage Medium [P], CN111553936B, Aug. 18, 2023.
+
+* Jialin Tang, Peilin Yang, Binghua Su, Juqing Yang, Xueyuan Gong, Wei Cao, Yaqing Feng. 3D Reconstruction Method, System, and Storage Medium Based on Branch-Cut Method [P], CN111028334A, Apr. 17, 2020.
+
+* Jialin Tang, Peilin Yang, Binghua Su, Lu Sun, Juqing Yang, Wei Cao, Yuke Wang, Xueyuan Gong. 3D Reconstruction Method, System, and Storage Medium Based on Self-Zero-Filling Branch-Cut Method [P], CN110363842A, Oct. 22, 2019.
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======

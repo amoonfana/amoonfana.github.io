@@ -1,7 +1,7 @@
 ---
 title: "Fast Multi-subsequence Monitoring on Streaming Time-series based on Forward-propagation"
 collection: publications
-category: manuscript
+category: manuscripts
 permalink: /publication/2018-01-01-fastmulsub
 date: 2018-01-01
 venue: 'Information Sciences'

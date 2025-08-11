@@ -1,7 +1,7 @@
 ---
 title: "Fast Fuzzy Subsequence Matching on Time-series"
 collection: publications
-category: manuscript
+category: manuscripts
 permalink: /publication/2019-01-01-fastfuzzy
 date: 2019-01-01
 venue: 'Expert Systems with Applications'
