@@ -13,8 +13,8 @@ This course is ranked top 10% in the faculty, which is publicly accessible on [*
 Course Information
 ======
 
-| Year     | #Students  | Student Rating  |
-|:--------:|:----------:|:----------------|
-| 2024     | 173        | 94.36 (Top 10%) |
-| 2023     | 141        | 94.24 (Top 10%) |
-| 2022     | 128        | 93.69           |
+| Year    | #Students | Student Rating  |
+|:--------|:----------|:----------------|
+| 2024    | 173       | 94.36 (Top 10%) |
+| 2023    | 141       | 94.24 (Top 10%) |
+| 2022    | 128       | 93.69           |
