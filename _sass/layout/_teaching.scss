@@ -1,0 +1,40 @@
+.teaching-card {
+  background: #f8fdfb;
+  border-left: 4px solid #52adc8;
+}
+
+.teaching-card__meta {
+  font-size: 0.97em;
+  color: #3a4a5e;
+  margin-bottom: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  align-items: center;
+}
+
+.teaching-card__type,
+.teaching-card__venue,
+.teaching-card__location,
+.teaching-card__date {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.teaching-card__venue em {
+  font-style: italic;
+  color: #2a3a5e;
+}
+
+.teaching-card__desc {
+  margin: 0.4em 0 0.2em 0;
+  color: #2a2a2a;
+  font-size: 0.97em;
+  line-height: 1.5;
+}
+
+.teaching-card i {
+  color: #2a3a5e;
+  margin-right: 0.18em;
+}

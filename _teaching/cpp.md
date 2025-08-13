@@ -1,7 +1,7 @@
 ---
 title: "C++ Programming"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/cpp
 venue: "Jinan University"
 date: 2024-01-01
@@ -10,8 +10,7 @@ location: "Zhuhai, China"
 
 I am still actively teaching this course, which ranks in the top 10% within the faculty. The course content is publicly available on [**BiliBili**](https://www.bilibili.com/video/BV1JTHxeDEof/) (in Chinese).
 
-Course Information
-======
+**Course Information**
 
 | Year    | #Students | Student Rating  |
 |:--------|:----------|:----------------|

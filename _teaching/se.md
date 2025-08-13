@@ -1,7 +1,7 @@
 ---
 title: "Software Engineering"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/se
 venue: "Jinan University"
 date: 2021-01-01
@@ -10,8 +10,7 @@ location: "Zhuhai, China"
 
 I finished teaching this course in 2022.
 
-Course Information
-======
+**Course Information**
 
 | Year    | #Students | Student Rating  |
 |:--------|:----------|:----------------|

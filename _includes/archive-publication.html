@@ -26,6 +26,12 @@
       </div>
     {% endif %}
 
+    {% if post.authors %}
+      <div class="pub-card__authors">
+        {{ post.authors | replace: "Xueyuan Gong", "<strong>Xueyuan Gong</strong>" }}
+      </div>
+    {% endif %}
+
     <h2 class="archive__item-title pub-card__title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
@@ -38,34 +44,10 @@
       {% endif %}
     </h2>
 
-    {% if post.authors %}
-    <div class="pub-card__authors">
-        {{ post.authors | replace: "Xueyuan Gong", "<strong>Xueyuan Gong</strong>" }}
-    </div>
-    {% endif %}
-
-    {% if post.collection == 'publications' %}
     <div class="pub-card__meta">
-        <span class="pub-card__venue"><i class="fa fa-university"></i> <em>{{ post.venue }}</em></span>
-        <span class="pub-card__year badge">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+      <span class="pub-card__venue"><i class="fa fa-university"></i> {{ post.venue }}</span>
+      <span class="pub-card__year badge">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
     </div>
-    {% elsif post.collection == 'teaching' %}
-    <div class="pub-card__meta">
-        <span class="pub-card__type badge">{{ post.type }}</span>
-        <span class="pub-card__venue"><i><em>{{ post.venue }}</em></i></span>
-        <span class="pub-card__year badge">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
-    </div>
-    {% elsif post.date %}
-      <p class="page__date pub-card__date">
-        <strong>
-          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-          {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
-        </strong>
-        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
-          {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
-        </time>
-      </p>
-    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt pub-card__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -76,19 +58,12 @@
       </p>
     {% endif %}
 
-    {% if post.citation %}
-      <div class="pub-card__citation">
-        <span class="pub-card__citation-label">Recommended citation:</span>
-        <span class="pub-card__citation-text">{{ post.citation }}</span>
-      </div>
-    {% endif %}
-
     <div class="pub-card__links">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" class="pub-card__link" title="Download Paper"><i class="fa fa-file-pdf-o"></i> Paper</a>
+        <a href="{{ post.paperurl }}" class="pub-card__link" title="Download Paper"><i class="fa fa-file-pdf"></i> Paper</a>
       {% endif %}
       {% if post.slidesurl %}
-        <a href="{{ post.slidesurl }}" class="pub-card__link" title="Download Slides"><i class="fa fa-file-powerpoint-o"></i> Slides</a>
+        <a href="{{ post.slidesurl }}" class="pub-card__link" title="Download Slides"><i class="fa fa-file-powerpoint"></i> Slides</a>
       {% endif %}
       {% if post.bibtexurl %}
         <a href="{{ post.bibtexurl }}" class="pub-card__link" title="Download Bibtex"><i class="fa fa-code"></i> Bibtex</a>

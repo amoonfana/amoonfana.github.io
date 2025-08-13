@@ -1,7 +1,7 @@
 ---
 title: "Linux Programming"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/linux
 venue: "Jinan University"
 date: 2022-01-01
@@ -10,8 +10,7 @@ location: "Zhuhai, China"
 
 I finished teaching this course in 2022. This course was ranked in the top 10% within the faculty.
 
-Course Information
-======
+**Course Information**
 
 | Year    | #Students | Student Rating  |
 |:--------|:----------|:----------------|

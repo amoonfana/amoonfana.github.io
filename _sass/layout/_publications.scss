@@ -1,53 +1,104 @@
 .pub-card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-  padding: 0.8em 1.2em;
+  background: #f9fbfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(60, 80, 120, 0.07);
+  padding: 1em 1.2em 0.8em 1.2em;
   margin-bottom: 0.8em;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: 1px solid #e3e8f0;
+  position: relative;
 }
+
 .pub-card:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  box-shadow: 0 6px 24px rgba(60, 80, 120, 0.13);
+  transform: translateY(-2px) scale(1.01);
 }
+
+.pub-card__authors {
+  font-size: 0.95em;
+  color: #2a3a5e;
+  margin-bottom: 0.125rem;   /* ~2px: keep a tiny breathing room */
+  line-height: 1.2;
+}
+
 .pub-card__title {
-  font-size: 1.08em;
-  margin-bottom: 0.1em;
-  font-weight: 600;
+  font-size: 1.09em;
+  margin-bottom: 0.13em;
+  font-weight: 700;
+  color: #223366;
+  line-height: 1.25;
 }
+
+.pub-card__authors + .pub-card__title {
+  margin-top: 0;             /* kill the H2’s default top margin when following authors */
+  line-height: 1.25;
+}
+
+.pub-card .archive__item-title {
+  margin-top: 0;
+}
+
 .pub-card__meta {
-  margin-bottom: 0.2em;
-  color: #555;
+  margin-bottom: 0.25em;
+  color: #4a5a6a;
   font-size: 0.97em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
+
 .pub-card__venue {
-  margin-right: 0.7em;
+  margin-right: 0.3em;
+  color: #2a3a5e;
 }
+
 .pub-card__year.badge, .pub-card__type.badge {
   background: #e0e7ef;
   color: #2a3a5e;
   border-radius: 4px;
-  padding: 0.1em 0.5em;
-  font-size: 0.93em;
-  margin-right: 0.3em;
-}
-.pub-card__excerpt {
-  color: #333;
-  margin-bottom: 0.3em;
-}
-.pub-card__citation {
-  font-size: 0.93em;
-  color: #666;
-  margin-bottom: 0.3em;
-}
-.pub-card__links {
-  margin-top: 0.2em;
-}
-.pub-card__link {
-  margin-right: 0.7em;
-  color: #2a3a5e;
-  text-decoration: none;
+  padding: 0.11em 0.6em;
+  font-size: 0.95em;
+  margin-right: 0.15em;
   font-weight: 500;
 }
+
+.pub-card__excerpt {
+  color: #2a2a2a;
+  margin-bottom: 0.3em;
+  font-size: 0.97em;
+  line-height: 1.45;
+}
+
+.pub-card__links {
+  margin-top: 0.15em;
+}
+
+.pub-card__link {
+  margin-right: 0.7em;
+  color: #52adc8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.15s;
+  font-size: 0.97em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pub-card__link:hover {
+  color: #0d2c5a;
+  text-decoration: underline;
+}
+
 .pub-card__link i {
-  margin-right: 0.2em;
+  margin-right: 0.22em;
+  font-size: 1.05em;
+}
+
+strong {
+  color: #494e52;
+  font-weight: 700;
+}
+
+a strong {
+  color: #52adc8 !important;
 }
