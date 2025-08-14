@@ -45,8 +45,8 @@
     </h2>
 
     <div class="pub-card__meta">
-      <span class="pub-card__venue"><i class="fa fa-university"></i> {{ post.venue }}</span>
-      <span class="pub-card__year badge">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+      <span class="pub-card__venue"><i class="fa fa-book"></i> {{ post.venue }}</span>
+      <span class="pub-card__year"><i class="fa fa-calendar"></i> {{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
     </div>
 
     {% if post.excerpt and site.read_more != 'enabled' %}

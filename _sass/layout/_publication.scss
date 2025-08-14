@@ -1,11 +1,11 @@
 .pub-card {
-  background: #f9fbfd;
+  background: #f7fbff;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(60, 80, 120, 0.07);
   padding: 1em 1.2em 0.8em 1.2em;
   margin-bottom: 0.8em;
   transition: box-shadow 0.2s, transform 0.2s;
-  border: 1px solid #e3e8f0;
+  border-left: 4px solid #7ec4e3; // pastel blue
   position: relative;
 }
 
@@ -75,7 +75,7 @@
 
 .pub-card__link {
   margin-right: 0.7em;
-  color: #52adc8;
+  color: #7ec4e3;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.15s;
@@ -101,4 +101,9 @@ strong {
 
 a strong {
   color: #52adc8 !important;
+}
+
+.pub-card i {
+  color: #7ec4e3;
+  margin-right: 0.18em;
 }

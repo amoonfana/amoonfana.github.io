@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Publication"
+permalink: /publication/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
+<!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% endif %} -->
 
 {% include base_path %}
 
@@ -32,7 +32,7 @@ author_profile: true
   {% endfor %}
 {% endif %} -->
 
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign pubs_by_year = site.publication | sort: "date" | reverse | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in pubs_by_year %}
   <h2>{{ year.name }}</h2>
   <div class="pubs-by-year">

@@ -1,9 +1,9 @@
 ---
 title: "Software Engineering"
 collection: teaching
-type: "Undergraduate Course"
+type: "Course Previously Taught"
 permalink: /teaching/se
-venue: "Jinan University"
+venue: "Undergraduate Course, Jinan University"
 date: 2021-01-01
 location: "Zhuhai, China"
 ---

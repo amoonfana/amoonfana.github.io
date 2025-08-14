@@ -1,9 +1,9 @@
 ---
 title: "English for Software Engineering"
 collection: teaching
-type: "Undergraduate Course"
+type: "Course Previously Taught"
 permalink: /teaching/eng_se
-venue: "Jinan University"
+venue: "Undergraduate Course, Jinan University"
 date: 2022-01-01
 location: "Zhuhai, China"
 ---

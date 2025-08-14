@@ -1,0 +1,26 @@
+.supervision-card {
+  background: #faf7ff;
+  border-left: 4px solid #b7a7e3; // pastel purple
+}
+
+.supervision-card__meta {
+  font-size: 0.97em;
+  color: #3a4a5e;
+  margin-bottom: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  align-items: center;
+}
+
+.supervision-card__type,
+.supervision-card__date {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.supervision-card i {
+  color: #b7a7e3;
+  margin-right: 0.18em;
+}

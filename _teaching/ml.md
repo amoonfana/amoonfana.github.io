@@ -1,9 +1,9 @@
 ---
 title: "Machine Learning"
 collection: teaching
-type: "Undergraduate Course"
+type: "Course Currently Taught"
 permalink: /teaching/ml
-venue: "Jinan University"
+venue: "Undergraduate Course, Jinan University"
 date: 2024-01-01
 location: "Zhuhai, China"
 ---

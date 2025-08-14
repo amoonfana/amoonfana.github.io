@@ -1,0 +1,26 @@
+---
+layout: archive
+title: "Supervision"
+permalink: /supervision/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Join our team!</h2>
+
+<p>
+  Our team offers 2-3 openings for Master's students each year, focused on research. Several of our students have published papers in top-tier journals, such as <i>Information Fusion</i>, <i>Neural Networks</i>, <i>ESWA</i>, and others. If you are interested in Pattern Recognition and Deep Learning, with a particular focus on Face Recognition, Loss Functions, Deep Neural Networks, etc. please feel free to contact me for more information.<br>
+  Before applying, please ensure that you have a solid background in <strong style="color: #e45050;">mathematics</strong> and <strong style="color: #e45050;">programming</strong>. A strong foundation in mathematics (Calculus, Linear Algebra, Probability, and Statistics, etc.) will help you understand the methods proposed by others, while proficiency in programming (Python, Data Structures, Algorithms, etc.) is essential for implementing these methods. You can assess your level of mathematics and programming by watching my <a href="https://www.bilibili.com/video/BV13ppuebEJG/">Machine Learning</a> course. In addition to technical skills, I expect you to be <strong style="color: #e45050;">self-motivated</strong> in research, as it is a long-term and challenging endeavor.<br>
+  <img src="/images/team.jpg" alt="Join us" style="width: 100%; max-width: 600px; margin: 20px auto; display: block;" />
+</p>
+
+{% assign sups_by_type = site.supervision | sort: "date" | reverse | group_by_exp:"post", "post.type" %}
+{% for type in sups_by_type %}
+  <h2>{{ type.name }}</h2>
+  <div class="supervision-by-type">
+    {% for post in type.items %}
+      {% include archive-supervision.html post=post %}
+    {% endfor %}
+  </div>
+{% endfor %}

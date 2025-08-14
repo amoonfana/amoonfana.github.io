@@ -1,9 +1,9 @@
 ---
 title: "Linux Programming"
 collection: teaching
-type: "Undergraduate Course"
+type: "Course Previously Taught"
 permalink: /teaching/linux
-venue: "Jinan University"
+venue: "Undergraduate Course, Jinan University"
 date: 2022-01-01
 location: "Zhuhai, China"
 ---
