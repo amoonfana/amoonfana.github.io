@@ -80,11 +80,11 @@ redirect_from:
 
 ## 👨‍🏫 Teaching
 
-{% assign teaching_by_type = site.teaching | group_by_exp:"post", "post.type" %}
-{% for type in teaching_by_type reversed %}
-  <h3><i class="fa fa-chalkboard-teacher"></i> {{ type.name }}</h3>
+{% assign teaching_by_active = site.teaching | group_by_exp:"post", "post.active" %}
+{% for active in teaching_by_active reversed %}
+  <h3><i class="fa fa-chalkboard-teacher"></i> {{ active.name }}</h3>
   <ul class="teaching-cv-list">
-    {% for post in type.items reversed %}
+    {% for post in active.items reversed %}
       {% include archive-teaching-cv.html post=post %}
     {% endfor %}
   </ul>

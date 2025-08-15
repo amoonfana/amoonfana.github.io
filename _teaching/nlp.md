@@ -1,9 +1,10 @@
 ---
 title: "Natural Language Processing"
 collection: teaching
-type: "Course Previously Taught"
+type: "Undergraduate Course"
+active: "Course Previously Taught"
 permalink: /teaching/nlp
-venue: "Undergraduate Course, Jinan University"
+venue: "Jinan University"
 date: 2023-01-01
 location: "Zhuhai, China"
 ---

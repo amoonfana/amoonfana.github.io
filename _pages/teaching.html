@@ -11,6 +11,12 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-{% for post in site.teaching reversed %}
-  {% include archive-teaching.html type="pub-card" %}
+{% assign teaching_by_active = site.teaching | group_by_exp:"post", "post.active" %}
+{% for active in teaching_by_active reversed %}
+  <h2> {{ active.name }} </h2>
+  <div class="teaching-by-active">
+    {% for post in active.items reversed %}
+      {% include archive-teaching.html post=post %}
+    {% endfor %}
+  </div>
 {% endfor %}

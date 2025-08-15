@@ -1,14 +1,15 @@
 ---
-title: "Machine Learning (Postgraduate)"
+title: "Machine Learning"
 collection: teaching
-type: "Course Currently Taught"
+type: "Postgraduate Course"
+active: "Course Currently Taught"
 permalink: /teaching/ml_pg
-venue: "Postgraduate Course, Jinan University"
+venue: "Jinan University"
 date: 2024-01-01
 location: "Zhuhai, China"
 ---
 
-I am still actively teaching this course.
+I am still teaching this course.
 
 **Course Information**
 
