@@ -5,7 +5,7 @@ type: "Undergraduate Course"
 active: "Course Currently Taught"
 permalink: /teaching/ml
 venue: "Jinan University"
-date: 2024-01-01
+date: 2025-01-01
 location: "Zhuhai, China"
 ---
 
@@ -15,6 +15,7 @@ I am still teaching this course, which ranks in the top 10% within the faculty. 
 
 | Year    | #Students | Student Rating  |
 |:--------|:----------|:----------------|
+| 2025    | 165       | 94.71 (Top 10%) |
 | 2024    | 173       | 94.36 (Top 10%) |
 | 2023    | 141       | 94.24 (Top 10%) |
 | 2022    | 128       | 93.69           |

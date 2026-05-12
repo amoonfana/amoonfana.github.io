@@ -29,8 +29,7 @@
     {{ post.authors | replace: "Xueyuan Gong", "<strong>Xueyuan Gong</strong>" }},
     <a href="{{ base_path }}{{ post.url }}" rel="permalink"> {{ title }} </a>,
     <i>{{ post.venue }}</i>,
-    {{ post.date | default: "1900-01-01" | date: "%Y" }},
-    {{ post.no_info }}.
+    {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.no_info %}, {{ post.no_info }}{% endif %}.
     <!-- {% if post.venue%}
       <a>{{ post.citation }}</a>
       <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-file-pdf"></i> Paper</a>
