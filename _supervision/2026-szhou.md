@@ -1,11 +1,11 @@
 ---
 title: "Si Zhou"
 collection: supervision
-type: "Master's Student"
+type: "Master's Alumni"
 permalink: /supervision/2026-szhou
 s_date: 2023-09-01
 e_date: 2026-06-01
-excerpt: "She is currently researching in Knowledge Distillation in Face Recognition."
+excerpt: "After graduation, she joins Geely Automobile Holdings Limited as an AI developer."
 ---
 
 **Publication under Supervision**

@@ -10,10 +10,28 @@ author_profile: true
 <h2>Join our team!</h2>
 
 <p>
-  Our team offers 2-3 openings for Master's students each year, focused on research. Several of our students have published papers in top-tier journals, such as <i>Information Fusion</i>, <i>Neural Networks</i>, <i>ESWA</i>, and others. If you are interested in Pattern Recognition and Deep Learning, with a particular focus on Face Recognition, Loss Functions, Deep Neural Networks, etc. please feel free to contact me for more information.<br>
-  Before applying, please ensure that you have a solid background in <strong style="color: #e45050;">mathematics</strong> and <strong style="color: #e45050;">programming</strong>. A strong foundation in mathematics (Calculus, Linear Algebra, Probability, and Statistics, etc.) will help you understand the methods proposed by others, while proficiency in programming (Python, Data Structures, Algorithms, etc.) is essential for implementing these methods. You can assess your level of mathematics and programming by watching my <a href="https://www.bilibili.com/video/BV13ppuebEJG/">Machine Learning</a> course. In addition to technical skills, I expect you to be <strong style="color: #e45050;">self-motivated</strong> in research, as it is a long-term and challenging endeavor.<br>
-  <img src="/images/team.jpg" alt="Join us" style="width: 100%; max-width: 600px; margin: 20px auto; display: block;" />
+  Our research group offers 2-3 openings for research-oriented Master's students each year. Our work mainly focuses on Pattern Recognition, Biometrics, and Deep Learning, with particular emphasis on Face Recognition, Loss Functions, Deep Neural Networks, and related topics. In recent years, several of our students have published papers in top-tier journals, such as <i>Information Fusion</i>, <i>TBIOM</i>, <i>Neural Networks</i>, <i>ESWA</i>, and others. If you are strongly interested in these research directions, you are welcome to contact me for further information.<br><br>
+  
+  Before applying, please make sure that you have a solid background in <strong style="color: #e45050;">mathematics</strong> and <strong style="color: #e45050;">programming</strong>. A strong foundation in mathematics (Calculus, Linear Algebra, Probability and Statistics, etc.) will help you understand the methods proposed by others, while proficiency in programming (Python, Data Structures, Algorithms, etc.) is essential for implementing these methods. You may evaluate your current level of mathematics and programming by watching my <a href="https://www.bilibili.com/video/BV13ppuebEJG/">Machine Learning</a> course.<br><br>
+  
+  In addition to technical skills, I expect prospective students to be highly <strong style="color: #e45050;">self-motivated</strong> in research. Pursuing a Master's degree is not merely about obtaining a diploma, nor should it be treated as a temporary stage before looking for jobs. Research is a long-term, demanding, and sometimes frustrating process, requiring continuous reading, thinking, implementation, experimentation, and writing. Therefore, students who join our group should have a clear academic goal, a strong sense of responsibility, and the willingness to devote sufficient time and effort to research. <strong style="color: #d97706;">Students who merely seek to obtain a degree, or who place job-oriented internships above research, may not be well suited to our group</strong>.<br>
 </p>
+
+<div class="team-gallery" aria-label="Team group photos">
+  <figure class="team-gallery__item">
+    <a class="team-gallery__link image-popup" href="/images/team_2026.jpg">
+      <img class="team-gallery__image" src="/images/team_2026.jpg" alt="2026年团队合照" loading="lazy" decoding="async" />
+    </a>
+    <figcaption class="team-gallery__caption">Group photo in 2026</figcaption>
+  </figure>
+
+  <figure class="team-gallery__item">
+    <a class="team-gallery__link image-popup" href="/images/team_2025.jpg">
+      <img class="team-gallery__image" src="/images/team_2025.jpg" alt="2025年团队合照" loading="lazy" decoding="async" />
+    </a>
+    <figcaption class="team-gallery__caption">Group photo in 2025</figcaption>
+  </figure>
+</div>
 
 {% assign sups_by_type = site.supervision | sort: "date" | reverse | group_by_exp:"post", "post.type" %}
 {% for type in sups_by_type %}

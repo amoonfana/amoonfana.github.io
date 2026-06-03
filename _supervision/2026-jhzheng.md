@@ -1,11 +1,11 @@
 ---
 title: "Jinhui Zheng"
 collection: supervision
-type: "Master's Student"
+type: "Master's Alumni"
 permalink: /supervision/2026-jhzheng
 s_date: 2023-09-01
 e_date: 2026-06-01
-excerpt: "He is currently researching loss functions in Face Recognition."
+excerpt: ""
 ---
 
 **Publication under Supervision**

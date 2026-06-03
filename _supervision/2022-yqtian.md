@@ -5,7 +5,7 @@ type: "Master's Alumni"
 permalink: /supervision/2022-yqtian
 s_date: 2020-09-01
 e_date: 2022-06-01
-excerpt: "After graduation, he pursues a PhD at the Hong Kong University of Science and Technology (Guangzhou)."
+excerpt: "After graduation, he pursues a Ph.D. degree at the Hong Kong University of Science and Technology (Guangzhou)."
 ---
 
 **Publication under Supervision**
